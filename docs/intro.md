@@ -16,7 +16,7 @@ Select a plugin from the sidebar or choose a guide below to view complete instal
 
 ## Active Plugins
 
-### 🔮 [ClaimParticles](/claimparticles/intro)
+### ⟡ [ClaimParticles](/claimparticles/intro)
 **High-performance visual claim boundary addon for GriefPrevention.**
 * **Supported Platforms:** Paper & Purpur 1.21.x
 * **Key Features:** Zero-flicker asynchronous particle tasks, dual-height visualization, unicast player packets, and LuckPerms per-particle permissions.
@@ -24,7 +24,7 @@ Select a plugin from the sidebar or choose a guide below to view complete instal
 
 ---
 
-### 🛡️ [SuperAdminGUI](/superadmingui/intro)
+### ⟡ [SuperAdminGUI](/superadmingui/intro)
 **The ultimate lightweight staff operations and player management suite.**
 * **Supported Platforms:** Paper & Purpur 1.21+
 * **Key Features:** Event-driven architecture (zero repeating tick monitors), asynchronous SQLite WAL logging, full moderation/punishment tools (AdvancedBan), Vault & ExcellentEconomy (Florin), and custom staff roles.

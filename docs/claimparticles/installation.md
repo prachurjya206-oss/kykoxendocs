@@ -15,11 +15,11 @@ Getting **ClaimParticles** running on your server takes less than 2 minutes!
 
 Before installing, ensure your server meets the following requirements:
 
-| Component | Requirement |
-| :--- | :--- |
-| **Java Environment** | Java 21 or higher |
-| **Server Software** | [PaperMC](https://papermc.io/), Spigot, or Purpur (Minecraft 1.21.x) |
-| **Required Plugin** | [GriefPrevention](https://github.com/TechFortress/GriefPrevention) (v16.18+) |
+| Component | Requirement | Recommended & Compatibility |
+| :--- | :--- | :--- |
+| **Java Environment** | Java 21 or higher | Java 21 LTS (matching modern Paper standards) |
+| **Server Software** | Minecraft 1.21.x | [PaperMC](https://papermc.io/), Purpur, or Spigot |
+| **Required Plugin** | [GriefPrevention](https://github.com/TechFortress/GriefPrevention) (v16.18+) | Base land claiming plugin dependency |
 
 :::warning Dependency Required
 ClaimParticles is an **addon** for GriefPrevention. It will automatically disable itself on startup if GriefPrevention is missing from your server's `plugins/` folder.

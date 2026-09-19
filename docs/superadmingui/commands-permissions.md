@@ -11,7 +11,7 @@ Comprehensive reference for all SuperAdminGUI commands, aliases, permission node
 
 ---
 
-## ⌨️ Command Reference
+## ● Command Reference
 
 | Command | Aliases | Permission | Description |
 | :--- | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ Comprehensive reference for all SuperAdminGUI commands, aliases, permission node
 
 ---
 
-## 🔐 Administrative Permissions
+## ● Administrative Permissions
 
 | Permission Node | Default | Description |
 | :--- | :--- | :--- |
@@ -34,7 +34,7 @@ Comprehensive reference for all SuperAdminGUI commands, aliases, permission node
 
 ---
 
-## 👥 Staff Roles (`roles.yml`)
+## ● Staff Roles (`roles.yml`)
 
 SuperAdminGUI does not force you into a hardcoded hierarchy. You can define custom staff roles with granular module permissions inside `roles.yml`.
 
@@ -49,7 +49,7 @@ SuperAdminGUI does not force you into a hardcoded hierarchy. You can define cust
 
 ---
 
-## 🧑‍💼 Staff Utility Permissions
+## ● Staff Utility Permissions
 
 | Permission Node | Description |
 | :--- | :--- |

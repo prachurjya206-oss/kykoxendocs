@@ -13,13 +13,13 @@ description: Overview, architecture, and core features of SuperAdminGUI for Mine
 
 Bring moderation, player management, staff utilities, economy controls, permissions, punishments, and administrative tools together in **one clean interface**.
 
-**⚡ Lightweight. 🛡️ Powerful. 🎛️ Fully Configurable.**
+**⟡ Lightweight. ⟡ Powerful. ⟡ Fully Configurable.**
 
 ---
 
 ## Key Highlights
 
-### ⚡ Built for Performance
+### ⟡ Built for Performance
 
 * **Zero Repeating Schedulers**: No tick monitors, scanning loops, or unnecessary background tasks. SuperAdminGUI is built around an **event-driven architecture**.
 * **Asynchronous SQLite Storage**: Staff notes, action logs, and jail states are stored asynchronously using SQLite WAL, keeping disk operations away from the main server thread.
@@ -27,19 +27,19 @@ Bring moderation, player management, staff utilities, economy controls, permissi
 
 ---
 
-### 🛡️ Complete Player Management
+### ⟡ Complete Player Management
 
-Everything your staff need — accessible from a single Player Management Hub:
+Everything your staff need ➜ accessible from a single Player Management Hub:
 
-* 👤 **Detailed Player Information**: View playtime, ping, coordinates, IP, and balances.
-* ⚠️ **Full Moderation**: Warn, Mute, Kick, Ban, Jail, and Freeze players.
-* ⭐ **LuckPerms Group Management**: Assign groups and inspect ranks with hierarchy protection.
-* 💰 **Economy Controls**: Direct integration with Vault and ExcellentEconomy (Florin).
-* 🎒 **Inventory & Ender Chest**: Real-time inspection, editing, and armor manipulation.
-* 🧭 **Instant Teleportation**: Teleport to player, bring player, or send to spawn.
-* 🛡️ **Player Restrictions**: Toggle chat, commands, PvP, block breaking, and placing.
-* 📖 **Private Staff Notes**: Keep persistent notes on players.
-* 📝 **Staff Action Logs**: Comprehensive audit trail of all staff activities.
+* ● **Detailed Player Information**: View playtime, ping, coordinates, IP, and balances.
+* ⚠ **Full Moderation**: Warn, Mute, Kick, Ban, Jail, and Freeze players.
+* ● **LuckPerms Group Management**: Assign groups and inspect ranks with hierarchy protection.
+* ● **Economy Controls**: Direct integration with Vault and ExcellentEconomy (Florin).
+* ● **Inventory & Ender Chest**: Real-time inspection, editing, and armor manipulation.
+* ● **Instant Teleportation**: Teleport to player, bring player, or send to spawn.
+* ● **Player Restrictions**: Toggle chat, commands, PvP, block breaking, and placing.
+* ● **Private Staff Notes**: Keep persistent notes on players.
+* ● **Staff Action Logs**: Comprehensive audit trail of all staff activities.
 
 The Player Management Hub dynamically displays modules based on the staff member's configured role.
 

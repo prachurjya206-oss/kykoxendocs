@@ -11,7 +11,7 @@ SuperAdminGUI is completely customizable. You can tailor menus, inventory layout
 
 ---
 
-## 🎨 Configuration Files Breakdown
+## ● Configuration Files Breakdown
 
 All settings are organized into dedicated configuration files inside `plugins/SuperAdminGUI/`:
 
@@ -26,7 +26,7 @@ All settings are organized into dedicated configuration files inside `plugins/Su
 
 ---
 
-## ✨ Modern Adventure & MiniMessage Formatting
+## ⟡ Modern Adventure & MiniMessage Formatting
 
 SuperAdminGUI natively uses **Kyori Adventure & MiniMessage** rather than outdated legacy color codes (`&a`, `&c`).
 
@@ -38,7 +38,7 @@ You can use modern formatting tags anywhere in `messages.yml` and `gui.yml`:
 
 ---
 
-## 🏷️ Internal Dynamic Placeholders
+## ● Internal Dynamic Placeholders
 
 Use dynamic placeholders inside messages, item names, and lore:
 
@@ -64,7 +64,7 @@ Use dynamic placeholders inside messages, item names, and lore:
 
 ---
 
-## 🔤 PlaceholderAPI Support
+## ● PlaceholderAPI Support
 
 SuperAdminGUI full supports external PlaceholderAPI placeholders within item lores, menus, and messages.
 

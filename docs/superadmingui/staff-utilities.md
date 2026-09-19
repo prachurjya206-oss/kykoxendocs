@@ -13,7 +13,7 @@ This hub allows staff to manage their own moderator status, movement, appearance
 
 ---
 
-## 🎮 Gamemode Switcher
+## ● Gamemode Switcher
 
 Seamlessly transition between all 4 Minecraft game modes with a single click. Each mode can be controlled by granular permission nodes:
 
@@ -24,7 +24,7 @@ Seamlessly transition between all 4 Minecraft game modes with a single click. Ea
 
 ---
 
-## 👻 Vanish Integration
+## ● Vanish Integration
 
 SuperAdminGUI integrates seamlessly with leading vanish plugins:
 * **SuperVanish**
@@ -39,29 +39,29 @@ If no third-party vanish plugin is found, SuperAdminGUI falls back to Paper’s 
 
 ---
 
-## 🧪 Quick Utilities
+## ● Quick Utilities
 
 One-click administrative toggles and restorations:
 
-* 🪽 **Flight** (`superadmingui.staff.fly`): Enable or disable server flight without creative mode.
-* 🛡️ **God Mode** (`superadmingui.staff.god`): Complete invulnerability to damage and status effects.
-* 👻 **Invisibility** (`superadmingui.staff.invisibility`): Toggle potion invisibility.
-* ❤️ **Heal** (`superadmingui.staff.heal`): Instantly restore full health and extinguish fire.
-* 🍖 **Feed** (`superadmingui.staff.feed`): Replenish hunger bar and saturation.
-* 🌙 **Night Vision** (`superadmingui.staff.nightvision`): Toggle permanent night vision effect for moderation in dark caves.
-* 🥛 **Clear Effects** (`superadmingui.staff.cleareffects`): Remove all active potion effects.
+* ● **Flight** (`superadmingui.staff.fly`): Enable or disable server flight without creative mode.
+* ● **God Mode** (`superadmingui.staff.god`): Complete invulnerability to damage and status effects.
+* ● **Invisibility** (`superadmingui.staff.invisibility`): Toggle potion invisibility.
+* ● **Heal** (`superadmingui.staff.heal`): Instantly restore full health and extinguish fire.
+* ● **Feed** (`superadmingui.staff.feed`): Replenish hunger bar and saturation.
+* ● **Night Vision** (`superadmingui.staff.nightvision`): Toggle permanent night vision effect for moderation in dark caves.
+* ● **Clear Effects** (`superadmingui.staff.cleareffects`): Remove all active potion effects.
 
 ---
 
-## 💨 Movement Speed Control
+## ● Movement Speed Control
 
-**1× → 2× → 3× → 4× → 5×**
+**1× ➜ 2× ➜ 3× ➜ 4× ➜ 5×**
 
 Quickly traverse large survival worlds and claims without needing external speed commands. Controlled by `superadmingui.staff.speed`.
 
 ---
 
-## 🧭 Staff Teleportation
+## ➤ Staff Teleportation
 
 Quickly navigate the server without remembering coordinates or warp names:
 
@@ -72,7 +72,7 @@ Quickly navigate the server without remembering coordinates or warp names:
 
 ---
 
-## 🌤️ World Time & Weather Controls
+## ● World Time & Weather Controls
 
 Quickly set the world state for testing or event moderation:
 

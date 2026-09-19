@@ -43,8 +43,8 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'KYKOXEN',
@@ -66,9 +66,16 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://modrinth.com/user/Kykoxen',
-            label: 'Modrinth Profile ↗',
+            href: 'https://discord.gg/pG6K6Kd4GB',
+            label: 'Discord',
             position: 'right',
+            className: 'header-discord-link',
+          },
+          {
+            href: 'https://modrinth.com/user/Kykoxen',
+            label: 'Modrinth Profile',
+            position: 'right',
+            className: 'header-modrinth-link',
           },
         ],
       },
@@ -141,6 +148,10 @@ const config = {
           {
             title: 'Creator & Community',
             items: [
+              {
+                label: 'Discord Community',
+                href: 'https://discord.gg/pG6K6Kd4GB',
+              },
               {
                 label: 'Modrinth: Kykoxen',
                 href: 'https://modrinth.com/user/Kykoxen',

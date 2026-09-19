@@ -62,12 +62,12 @@ Aliases: `/sag`, `/admin`, `/staffgui`
 
 ## Supported Integrations Overview
 
-| Plugin | Purpose in SuperAdminGUI |
-| :--- | :--- |
-| **AdvancedBan** | Handles punishment execution (ban, mute, warn, kick) and historical logs. |
-| **LuckPerms** | Provides group inspection, group setting, and hierarchy defense. |
-| **Vault** | Inspects, modifies, and resets player currency balances with safety caps. |
-| **ExcellentEconomy** | Native support for Florin economy transactions. |
-| **SuperVanish / PremiumVanish** | Full invisibility integration; falls back to native Paper player hiding if omitted. |
-| **EssentialsX** | Vanish fallback and player utility compatibility. |
-| **PlaceholderAPI** | Enables `%vault_eco_balance%`, `%player_ping%`, and custom placeholders. |
+| Integration Plugin | Purpose in SuperAdminGUI | Module Scope |
+| :--- | :--- | :--- |
+| **AdvancedBan** | Handles punishment execution (ban, mute, warn, kick) and historical logs. | Moderation & Audit |
+| **LuckPerms** | Provides group inspection, group setting, and hierarchy defense. | Roles & Permissions |
+| **Vault** | Inspects, modifies, and resets player currency balances with safety caps. | Primary Economy |
+| **ExcellentEconomy** | Native support for Florin multi-currency transactions. | Custom Economy |
+| **SuperVanish / PremiumVanish** | Full invisibility integration; falls back to native Paper player hiding. | Stealth Staff Mode |
+| **EssentialsX** | Vanish fallback and server teleport utilities compatibility. | Server Utilities |
+| **PlaceholderAPI** | Enables `%vault_eco_balance%`, `%player_ping%`, and custom placeholders. | Text Placeholders |

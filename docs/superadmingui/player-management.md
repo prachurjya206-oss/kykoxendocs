@@ -16,7 +16,7 @@ To open the hub for a specific player:
 
 ---
 
-## 👤 Player Information Overview
+## ● Player Information Overview
 
 Inspect comprehensive telemetry and account data for any online or offline player without running multiple commands:
 
@@ -34,20 +34,20 @@ Inspect comprehensive telemetry and account data for any online or offline playe
 
 ---
 
-## ⚖️ Punishment Management
+## ⚠ Punishment Management
 
 SuperAdminGUI connects directly with **AdvancedBan** (or native Paper mechanisms) to execute disciplinary actions with duration and reason prompts:
 
-* ⚠️ **Warn**: Issue formal warnings with reason tracking.
-* 🔇 **Mute / 🔊 Unmute**: Silence players temporarily or permanently.
-* 👢 **Kick**: Remove players from the server with a custom reason.
-* 🚫 **Ban / 🔓 Unban**: Temporary or permanent IP/UUID bans with confirmation protection.
-* ⛓️ **Jail / 🔓 Unjail**: Confine players to configured jail cells.
-* ❄️ **Freeze / Unfreeze**: Lock player movement and interactions in place.
+* ⚠ **Warn**: Issue formal warnings with reason tracking.
+* ✘ **Mute / ✔ Unmute**: Silence players temporarily or permanently.
+* ✘ **Kick**: Remove players from the server with a custom reason.
+* ✘ **Ban / ✔ Unban**: Temporary or permanent IP/UUID bans with confirmation protection.
+* ✘ **Jail / ✔ Unjail**: Confine players to configured jail cells.
+* ⚠ **Freeze / ✔ Unfreeze**: Lock player movement and interactions in place.
 
 ---
 
-## ⛓️ Jail System
+## ● Jail System
 
 Create and manage custom jail cells configured inside `jails.yml`.
 
@@ -63,7 +63,7 @@ The jail system uses event listeners rather than continuous ticking schedulers, 
 
 ---
 
-## ⭐ LuckPerms Integration
+## ⟡ LuckPerms Integration
 
 Manage player permissions and roles directly from the interface:
 
@@ -77,7 +77,7 @@ SuperAdminGUI respects LuckPerms group weights and hierarchy. Staff members cann
 
 ---
 
-## 💰 Economy Management
+## ● Economy Management
 
 ### Vault Economy
 Inspect and adjust player balances with configurable safety caps:
@@ -86,7 +86,7 @@ Inspect and adjust player balances with configurable safety caps:
 * **Set Balance**
 * **Reset Balance** to `$0.00`
 
-### 💎 ExcellentEconomy (Florin)
+### ⟡ ExcellentEconomy (Florin)
 If ExcellentEconomy is installed, staff can manage multi-currency balances directly:
 * Add Florin
 * Remove Florin
@@ -95,7 +95,7 @@ If ExcellentEconomy is installed, staff can manage multi-currency balances direc
 
 ---
 
-## 🎒 Inventory & Ender Chest Management
+## ● Inventory & Ender Chest Management
 
 Inspect and manipulate live player inventories in real time:
 
@@ -105,7 +105,7 @@ Inspect and manipulate live player inventories in real time:
 
 ---
 
-## 🧭 Teleportation Controls
+## ➤ Teleportation Controls
 
 Move staff and players instantly:
 * **Teleport to Player**: Teleport yourself to the target's current location.
@@ -114,18 +114,18 @@ Move staff and players instantly:
 
 ---
 
-## 🛡️ Player Restrictions
+## ⚠ Player Restrictions
 
 Dynamically toggle specific capabilities for problematic players without full bans:
-* 💬 **Chat**: Silence a player's public chat messages.
-* ⌨️ **Commands**: Block player from running any server commands.
-* ⚔️ **PvP**: Restrict player from dealing or receiving player damage.
-* ⛏️ **Block Breaking**: Prevent griefing by disabling block breaking.
-* 🧱 **Block Placing**: Prevent unwanted placement.
+* ● **Chat**: Silence a player's public chat messages.
+* ● **Commands**: Block player from running any server commands.
+* ● **PvP**: Restrict player from dealing or receiving player damage.
+* ● **Block Breaking**: Prevent griefing by disabling block breaking.
+* ● **Block Placing**: Prevent unwanted placement.
 
 ---
 
-## 📝 Staff Notes & Audit Logs
+## ● Staff Notes & Audit Logs
 
 Keep administrative records organized inside the plugin:
 
@@ -142,7 +142,7 @@ SuperAdminGUI logs all staff interventions to an asynchronous SQLite WAL databas
 
 ---
 
-## 🛡️ Confirmation Protection
+## ✔ Confirmation Protection
 
 To prevent staff misclicks, high-impact operations require explicit confirmation:
 
@@ -152,6 +152,6 @@ To prevent staff misclicks, high-impact operations require explicit confirmation
 * Delete Staff Note
 
 ```text
-✓ Confirm  ─── Executes the pending action
-✕ Cancel   ─── Aborts and returns safely to previous menu
+✔ Confirm  ─── Executes the pending action
+✘ Cancel   ─── Aborts and returns safely to previous menu
 ```
